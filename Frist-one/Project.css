@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.heding{
+    background-color: rgb(49, 80, 253);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(179, 252, 252);
+    letter-spacing: 3px;
+}
+.nav{
+    height: 100px;
+    width: 1000%;
+    position: relative;
+}
+.logo img{
+    height: 90px;
+    width: 130px;
+    position: absolute;
+      left: 160px;
+      top: 5px;
+      border-radius: 50px 0px 50px 0px;
+}
+.nav .nav-left ul {
+position: absolute;
+left: 400px;
+top: 18px;
+
+
+}
+.nav .nav-left ul li {
+float: left;
+padding: 15px;
+}
+.nav .nav-left ul li a {
+color: #000;
+font-size: 23px;
+text-decoration: none;
+}
+.nav  .sj{
+   position: absolute;
+   left: 1190px;
+   top: 36px;
+
+}
+.nav  .sj button{
+   height: 20px;
+   width: 100px;
+   background-color: rgb(16, 60, 255);
+   color: aliceblue;
+   border: none;
+   border-radius: 10px;
+}
+.nav .nav-right{
+  position: absolute;
+  left: 1400px;
+  top: 18px;
+}
+.nav .nav-right ul li{
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+}
+.nav .nav-right a{
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .nav .bn{
+   position: absolute;
+   left: 1900px;
+line-height: 100px;
+  }
+  .nav .bn button{
+ border: none;
+ background-color: green;
+ height: 36px;
+ width: 150px;
+ border-radius: 10px;
+ color: aliceblue;
+ font-size: 20px;
+  }
+  .main-content{
+    width: 1000%;
+    height: 631px;
+    background-color: rgba(111, 238, 221, 0.979);
+    position: relative;
+  }
+  .main-content .left-side{
+   position: absolute;
+   left: 120px;
+  
+  }
+  .main-content .left-side h1{
+font-size: 50px;
+word-spacing: 10px;
+letter-spacing: 5px;
+margin-top: 20px;
+  
+  }
+  .main-content .left-side .btn button{
+  border: 1px solid;
+  border: none;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  height: 30px;
+width: 150px;
+line-height: 30px;
+font-size: 16px;
+border-radius: 9px;
+margin-left: 80px;
+margin-top: 80px;
+  
+  }
+  .main-content .left-side h2{
+ font-size: 30px;
+ margin-top: 80px;
+  
+  }
+  .main-content .left-side .big-btn{
+position: absolute;
+left: 60px;
+margin-top: 80px;
+  
+  }
+  .main-content .left-side .big-btn button{ 
+    border: 1px solid;
+    border: none;
+    background-color: rgb(7, 138, 18);
+    color: rgb(255, 255, 255);
+    height: 40px;
+  width: 180px;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  
+  }
+  .main-content .right-side{
+    position: absolute;
+    left: 850px;
+   
+  }
+  .main-content .right-side img{
+    border-radius: 0px 0px 0px 500px;
+  
+   
+  }
+  .b-type p{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .card{
+    display: grid;
+    grid-template-columns: repeat 4;
+    float: left;
+    margin-left: 150px;
+
+  }
+ 
+  .card img{
+    height: 160px;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 15px;
+  }
+.card button{
+margin-left: 65px;
+margin-top: 20px;
+  height: 28px;
+  width: 240px;
+border-radius: 8px;
+font-size: 15px;
+letter-spacing: 3px;
+
+}
+
